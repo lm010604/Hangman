@@ -29,18 +29,18 @@ project_root/
 
 ## How to Play
 
-### 1.Clone the Repository
+### 1. Clone the Repository
 ```
 git clone https://github.com/your-username/hangman-game.git
-cd hangman-game
+cd hangman
 ```
 
-### 2.Run the Game
+### 2. Run the Game
 ```
 ruby main/main.rb
 ```
 
-### 3.Follow the Prompts
+### 3. Follow the Prompts
 - Type ```new``` to start a new game.
 - Type ```load``` to resume from a saved game.
 
@@ -48,3 +48,10 @@ ruby main/main.rb
 - Saved games are stored in the saves/ folder.
 - If no saved games exist, you’ll start a new game automatically.
 - You can resume saved games by selecting them from the list when prompted.
+
+## Requirements
+- Ruby 2.5+
+- Terminal access
+
+## Notes
+- Customize or replace google-10000-english-no-swears.txt to change the word pool.
